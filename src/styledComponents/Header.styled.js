@@ -60,4 +60,9 @@ export const Button = styled.button`
   background-position: center;
   position: relative;
   left: -3px;
+
+  &:active {
+    background-color: ${veryDarkGrey};
+    transform: scale(0.95);
+  }
 `;
