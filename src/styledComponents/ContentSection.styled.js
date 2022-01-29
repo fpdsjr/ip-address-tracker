@@ -22,7 +22,7 @@ export const ContentSectionStyled = styled.section`
     color: ${darkGrey};
     font-weight: 500;
     margin-bottom: 30px;
-    margin-right: 76px;
+    margin-right: 55px;
   }
 
   & li {
@@ -45,7 +45,7 @@ export const ContentSectionStyled = styled.section`
   .top {
     position: relative;
     top: -5px;
-    left: 60px;
+    left: 0px;
     height: 50px;
     width: 180px;
 
@@ -64,7 +64,7 @@ export const ContentSectionStyled = styled.section`
   }
 
   .position-isp {
-    left: 41px;
+    left: 23px;
 
     &:before {
       content: "";
@@ -74,14 +74,14 @@ export const ContentSectionStyled = styled.section`
       background: #cfcfcf;
       position: absolute;
       top: 50%;
-      margin-left: -33px;
+      margin-left: -34px;
       margin-top: 21px;
       transform: translate(-50%, -50%);
     }
   }
 
   .position-timezone {
-    left: 52px;
+    left: 13px;
 
     &:before {
       content: "";
@@ -91,7 +91,7 @@ export const ContentSectionStyled = styled.section`
       background: #cfcfcf;
       position: absolute;
       top: 50%;
-      margin-left: -33px;
+      margin-left: -34px;
       margin-top: 21px;
       transform: translate(-50%, -50%);
     }

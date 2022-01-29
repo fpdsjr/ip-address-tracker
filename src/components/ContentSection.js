@@ -26,7 +26,7 @@ function ContentSection(props) {
         <div className="top position-timezone">
           <strong>TIMEZONE</strong>
           <li className="before">
-            {ipGeolocation.length !== 0 ? `UTC${location.timezone}` : ""}
+            {ipGeolocation.length !== 0 ? `UTC ${location.timezone}` : ""}
           </li>
         </div>
       </ul>
