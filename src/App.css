@@ -3,3 +3,11 @@
 * {
   font-family: "Rubik";
 }
+
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  bottom: 160px;
+  z-index: 5;
+}

@@ -15,6 +15,7 @@ export const ContentSectionStyled = styled.section`
   position: relative;
   top: -80px;
   right: 2px;
+  z-index: 6;
 
   & ul {
     list-style: none;
