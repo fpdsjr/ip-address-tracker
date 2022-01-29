@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![https://prnt.sc/26lh9ag](https://prnt.sc/26lh9ag)
+![https://imgur.com/a/gc0kYNk](https://imgur.com/a/gc0kYNk)
 
 ### Links
 
