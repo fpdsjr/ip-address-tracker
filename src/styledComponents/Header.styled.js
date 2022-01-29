@@ -28,6 +28,14 @@ export const HeaderStyled = styled.header`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 1190px) {
+    & h1 {
+      font-size: 1.65rem;
+      padding-top: 27px;
+      margin-right: 0px;
+    }
+  }
 `;
 
 export const Input = styled.input`
@@ -45,11 +53,18 @@ export const Input = styled.input`
   &::placeholder {
     color: ${darkGrey};
   }
+
+  @media (max-width: 1190px) {
+    width: 284px;
+    height: 59px;
+    font-size: 13px;
+    margin-right: -16px;
+  }
 `;
 
 export const Button = styled.button`
   width: 58px;
-  height: 58px;
+  height: 59px;
   background-color: #000000;
   outline: none;
   border: none;
@@ -64,5 +79,9 @@ export const Button = styled.button`
   &:active {
     background-color: ${veryDarkGrey};
     transform: scale(0.95);
+  }
+
+  @media (max-width: 1190px) {
+    left: 5px;
   }
 `;

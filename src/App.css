@@ -11,3 +11,9 @@
   bottom: 160px;
   z-index: 5;
 }
+
+@media (max-width: 1190px) {
+  .leaflet-container {
+    bottom: 290px;
+  }
+}

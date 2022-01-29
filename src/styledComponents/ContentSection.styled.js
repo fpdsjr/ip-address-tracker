@@ -96,4 +96,51 @@ export const ContentSectionStyled = styled.section`
       transform: translate(-50%, -50%);
     }
   }
+
+  @media (max-width: 1190px) {
+    width: 330px;
+    height: 291px;
+    flex-direction: column;
+    top: -113px;
+    text-align: center;
+
+    &::before {
+      content: none;
+    }
+
+    ul {
+      margin-right: -5px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    & div {
+      & strong {
+        font-size: 8px;
+        bottom: -3px;
+      }
+    }
+  }
+
+  .position-isp {
+    &:before {
+      content: none;
+    }
+  }
+
+  .top {
+    position: relative;
+    top: -5px;
+    left: 0px;
+    height: 50px;
+    width: 180px;
+
+    &:before {
+      content: none;
+    }
+  }
 `;
