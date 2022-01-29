@@ -104,10 +104,6 @@ export const ContentSectionStyled = styled.section`
     top: -113px;
     text-align: center;
 
-    &::before {
-      content: none;
-    }
-
     ul {
       margin-right: -5px;
       margin-bottom: 10px;
@@ -126,12 +122,6 @@ export const ContentSectionStyled = styled.section`
     }
   }
 
-  .position-isp {
-    &:before {
-      content: none;
-    }
-  }
-
   .top {
     position: relative;
     top: -5px;
@@ -140,7 +130,7 @@ export const ContentSectionStyled = styled.section`
     width: 180px;
 
     &:before {
-      content: none;
+      height: 75px;
     }
   }
 `;
