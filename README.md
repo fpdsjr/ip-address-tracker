@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![https://imgur.com/a/gc0kYNk](https://imgur.com/a/gc0kYNk)
+![https://i.imgur.com/VWgVHp1.png](https://i.imgur.com/VWgVHp1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/fpdsjr/ip-address-tracker](https://github.com/fpdsjr/ip-address-tracker)
+- Live Site URL: [https://ip-address-tracker-tan.vercel.app/](https://ip-address-tracker-tan.vercel.app/)
 
 ## My process
 
