@@ -15,7 +15,7 @@ function Map(props) {
     }
   }
 
-  useEffect(() => handleView, [location]);
+  useEffect(() => handleView(), [location]);
 
   const locationIcon = new L.Icon({
     iconUrl: icon,

@@ -103,6 +103,7 @@ export const ContentSectionStyled = styled.section`
     flex-direction: column;
     top: -113px;
     text-align: center;
+    background-color: red;
 
     ul {
       margin-right: -5px;
