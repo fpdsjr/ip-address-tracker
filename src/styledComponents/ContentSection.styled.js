@@ -26,7 +26,7 @@ export const ContentSectionStyled = styled.section`
   }
 
   & li {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 10px;
     color: ${veryDarkGrey};
@@ -63,8 +63,12 @@ export const ContentSectionStyled = styled.section`
     }
   }
 
+  .position-location {
+  }
+
   .position-isp {
     left: 23px;
+    width: 260px;
 
     &:before {
       content: "";
@@ -103,7 +107,7 @@ export const ContentSectionStyled = styled.section`
     flex-direction: column;
     top: -113px;
     text-align: center;
-    background-color: red;
+    background-color: white;
 
     ul {
       margin-right: -5px;
@@ -121,17 +125,16 @@ export const ContentSectionStyled = styled.section`
         bottom: -3px;
       }
     }
-  }
+    .top {
+      position: relative;
+      top: -5px;
+      left: 0px;
+      height: 50px;
+      width: 180px;
 
-  .top {
-    position: relative;
-    top: -5px;
-    left: 0px;
-    height: 50px;
-    width: 180px;
-
-    &:before {
-      height: 75px;
+      &:before {
+        content: none;
+      }
     }
   }
 `;
